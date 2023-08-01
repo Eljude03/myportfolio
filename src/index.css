@@ -10,3 +10,31 @@
         font-family: 'Raleway', sans-serif;
     }
 }
+
+.credit {
+    font-family:sans-serif;
+    
+}
+
+.icons {
+    cursor: pointer;
+}
+
+.icons:hover {
+    color: rgb(227, 221, 221);
+    scale: 97%;
+}
+
+.darkmode-icons:hover {
+    color: rgb(227, 221, 221);
+    scale: 97%;
+}
+
+.arrow-up {
+    position: relative;
+    display: flex;
+    justify-content: end;
+    bottom: 40px;
+    right: 40px;
+    cursor: pointer;
+}
