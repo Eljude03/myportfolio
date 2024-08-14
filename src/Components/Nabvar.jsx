@@ -92,7 +92,7 @@ const Nabvar = () => {
             <BsFillMoonStarsFill size={30} className="darkmode-icons"/>
           )}
         </button>
-        <a href={Resume} download={true} rel="noreferrer" className="rounded-md cursor-pointer bg-gradient-to-r from-cyan-500 to-blue-500 w-fit px-4 py-2 my-2 font-medium text-white">
+        <a href={Resume} download={true} rel="noreferrer" className="rounded-md cursor-pointer bg-gradient-to-r from-violet-400 to-purple-600 w-fit px-4 py-2 my-2 font-medium text-white">
           Download Resume
         </a>
         <div

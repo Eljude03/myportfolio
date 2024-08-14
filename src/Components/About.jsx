@@ -13,22 +13,16 @@ const About = () => {
           </p>
         </div>
 
-        <p className="text-xl mt-20">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum ipsam
-          inventore eum dolor et, quo odit pariatur id porro corporis in
-          dignissimos, expedita aperiam a molestias libero tenetur? Vero numquam
-          minima deserunt assumenda animi quia pariatur dolore nulla aliquid
-          aspernatur a, quasi veritatis, omnis ex officiis ullam similique!
-          Delectus, aperiam.
-        </p>
-        <br />
         <p className="text-xl">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
-          beatae voluptas eos deleniti explicabo. Minima voluptatem dolor, fugit
-          possimus nulla similique quidem delectus laboriosam aliquid culpa?
-          Perspiciatis consequatur vitae illum laudantium, facilis sit debitis
-          temporibus sapiente ea aut recusandae harum dolore, maiores facere?
-          Assumenda inventore, placeat minima tempora sed sequi.
+          Welcome to my portfolio! I’m currently immersing myself in the world
+          of Web Development, with a keen focus on both Frontend and Backend
+          Development. As I navigate through the complexities of creating
+          dynamic and responsive web applications, I’m dedicated to mastering
+          the latest technologies and best practices. My journey involves
+          building intuitive user interfaces, crafting seamless user
+          experiences, and developing robust server-side solutions. I’m excited
+          to showcase my projects and share the progress as I continue to grow
+          in this ever-evolving field.
         </p>
       </div>
     </div>

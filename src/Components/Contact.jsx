@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <div
       name="contact"
-      className="w-full h-screen bg-slate-50 dark:bg-gradient-to-b dark:from-black dark:to-gray-800 p-4 dark:text-white"
+      className="w-full h-screen pt-20 bg-slate-50 dark:bg-gradient-to-b dark:from-black dark:to-gray-800 p-4 dark:text-white"
     >
       <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
         <div className="pb-8">
@@ -41,7 +41,7 @@ const Contact = () => {
               className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
             ></textarea>
 
-            <button className="text-white bg-gradient-to-b from-cyan-500 to-blue-500 py-3 px-6 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300">
+            <button className="text-white bg-gradient-to-b from-violet-400 to-purple-600 py-3 px-6 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300">
               Let's talk
             </button>
           </form>

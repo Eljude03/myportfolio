@@ -1,9 +1,10 @@
 import React from "react";
 import tesla from "../assets/tesla.png";
 import foodwebsite from "../assets/foodwebsite.png";
-import sw from "../assets/sw.png";
+import imagify from "../assets/Imagify-home.png";
 import twitter from "../assets/twitter.png";
-import tictactoe from "../assets/tictactoe.png";
+import tenzies from "../assets/tenzies.png";
+
 
 const Portfolio = () => {
   const links = [
@@ -21,12 +22,15 @@ const Portfolio = () => {
     },
     {
       id: 3,
-      img: tictactoe,
-      href: "https://tictactoeeljude.netlify.app/",
+      img: tenzies,
+      href: "https://tenzieseljude.netlify.app/",
+      code: "https://github.com/Eljude03/Project-1",
     },
     {
       id: 4,
-      img: sw,
+      img: imagify,
+      href: 'https://imagifyai-six.vercel.app',
+      code: 'https://github.com/Eljude03/imagifyai'
     },
     {
       id: 5,
@@ -37,7 +41,7 @@ const Portfolio = () => {
   return (
     <div
       name="portfolio"
-      className="w-full pt-12 bg-slate-50 dark:bg-gradient-to-b dark:from-black dark:to-gray-800
+      className="w-full pt-20 bg-slate-50 dark:bg-gradient-to-b dark:from-black dark:to-gray-800
      dark:text-white md:h-screen"
     >
       <div className="p-4 mx-auto max-w-screen-lg flex flex-col justify-center w-full h-full">

@@ -10,35 +10,37 @@ const Home = () => {
       className="h-screen w-full bg-slate-50 dark:bg-gradient-to-b dark:from-black dark:via-black dark:to-gray-800"
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center w-full h-full px-4 md:flex-row">
-        <div className="flex flex-col justify-center h-full">
-          <h2 className="text-4xl sm:text-7xl font-bold dark:text-white">
-            I'm a Web Developer
-          </h2>
-          <p className="text-gray-500 py-4 max-w-md">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam ipsa
-            natus quos quae rem! Nihil et nobis expedita perferendis natus?
+        <div className="flex flex-col justify-center h-full dark:text-white">
+          <h6 className="text-2xl sm:text-4xl font-bold">
+          Hi! I’m <span className="text-purple-600">Eljude Panao</span>, a passionate <span className="text-purple-600">web developer</span>
+          </h6>
+          <p className=" font-medium py-4 max-w-md">
+           dedicated to
+            creating impactful digital experiences. With expertise in both
+            front-end and back-end technologies, I transform ideas into
+            beautiful, functional websites that engage users. I’m always pushing
+            the boundaries of web development, staying ahead of trends to
+            deliver cutting-edge solutions. Explore my portfolio to see my work,
+            and let’s collaborate to bring your vision to life!
           </p>
 
-         <Link to="portfolio" smooth duration={500}>
-          
-          <div>
-            <div
-              className="group text-white flex items-center 
-              rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer
+          <Link to="portfolio" smooth duration={500}>
+            <div>
+              <div
+                className="group text-white flex items-center 
+              rounded-md bg-gradient-to-r from-violet-400 to-purple-600 cursor-pointer
               w-fit px-6 py-3 my-2 "
               >
-              Portfolio
-              <span className="group-hover:rotate-90 ml-2 duration-300">
-                <HiArrowNarrowRight size={20} />
-              </span>
+                Portfolio
+                <span className="group-hover:rotate-90 ml-2 duration-300">
+                  <HiArrowNarrowRight size={20} />
+                </span>
+              </div>
             </div>
-
-          </div>
-                </Link>
-              
+          </Link>
         </div>
 
-        <div>
+        <div className="p-4">
           <img
             src={HeroImage}
             alt=""
