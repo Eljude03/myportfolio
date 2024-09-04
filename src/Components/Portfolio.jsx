@@ -38,11 +38,13 @@ const Portfolio = () => {
       id: 5,
       href:'https://main.d1ltm6s20k9ofb.amplifyapp.com/',
       img: text2speech,
+      code: 'https://github.com/Eljude03/text2speech'
     },
     {
       id: 6,
       href:'https://qr-generator-evp-0215-edh7h4geebb0h2fn.eastasia-01.azurewebsites.net/',
       img: qrGenerator,
+      code: 'https://github.com/Eljude03/qr-code-generator-frontend'
     },
   ];
 
