@@ -2,8 +2,10 @@ import React from "react";
 import tesla from "../assets/tesla.png";
 import foodwebsite from "../assets/foodwebsite.png";
 import imagify from "../assets/Imagify-home.png";
-import twitter from "../assets/twitter.png";
 import tenzies from "../assets/tenzies.png";
+import qrGenerator from "../assets/qr-generator.png";
+import text2speech from "../assets/text2speech.png";
+
 
 
 const Portfolio = () => {
@@ -34,7 +36,13 @@ const Portfolio = () => {
     },
     {
       id: 5,
-      img: twitter,
+      href:'https://main.d1ltm6s20k9ofb.amplifyapp.com/',
+      img: text2speech,
+    },
+    {
+      id: 6,
+      href:'https://qr-generator-evp-0215-edh7h4geebb0h2fn.eastasia-01.azurewebsites.net/',
+      img: qrGenerator,
     },
   ];
 
@@ -56,7 +64,7 @@ const Portfolio = () => {
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
         {links.map(({id, img, href, code}) => (
           <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
-            <img src={img} alt="" className="rounded-md duration-200 hover:scale-105 "/>
+            <img src={img} alt="img" className="h-40 w-80 rounded-md duration-200 hover:scale-105 "/>
 
             <div className="flex items-center justify-center ml-4">
               <a href={href} target="_blank" className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105" >Demo</a>
