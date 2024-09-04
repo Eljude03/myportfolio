@@ -37,8 +37,8 @@ const Nabvar = () => {
     },
     {
       id: 3,
-      link: "portfolio",
-      href: "#portfolio",
+      link: "projects",
+      href: "#projects",
     },
     {
       id: 4,
@@ -53,7 +53,7 @@ const Nabvar = () => {
   ];
 
   return (
-    <div className="flex justify-between items-center w-full h-20 px-4 fixed shadow-lg bg-white dark:bg-black dark:text-white">
+    <div className="flex justify-between items-center w-full h-20 px-4 fixed shadow-lg bg-white dark:bg-[#121212] dark:text-white z-10">
       <div className="flex">
         <h1 className="font-signature text-5xl ml-2">Eljude</h1>
       </div>

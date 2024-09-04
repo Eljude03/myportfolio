@@ -5,7 +5,7 @@ import { Link } from "react-scroll";
 
 const Footer = () => {
   return (
-    <div className="bg-slate-50 dark:bg-gray-800 dark:text-white">
+    <div>
       <div className="flex flex-col justify-center items-center  ">
         <div className="flex gap-2 mb-4">
           <a
