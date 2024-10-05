@@ -25,7 +25,7 @@ const About = () => {
           building intuitive user interfaces, crafting seamless user
           experiences, and developing robust server-side solutions. I’m excited
           to showcase my projects and share the progress as I continue to grow
-          in this ever-evolving field.
+          in this ever-evolving field. testing update
         </motion.p>
 
     </div>
