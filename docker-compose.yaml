@@ -1,0 +1,17 @@
+version: '3'
+services:
+  myportfolio:
+    image: node:16-alpine 
+    working_dir: /usr/src/app
+    volumes:
+      - ./:/usr/src/app     
+      - /usr/src/app/node_modules  
+    ports:
+      - "3044:3000"  
+    stdin_open: true 
+    tty: true       
+    command: sh -c "npm install && npm start" 
+
+    # Optional: Use this to install dependencies and build the project in production mode
+    # environment:
+    #   NODE_ENV: production

@@ -19,38 +19,34 @@ import tailwindcss from "../assets/tailwind.svg";
     {
       name: "Tesla Landing Page",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "This is a simple Tesla landing page built using ReactJS and styled with TailwindCSS. It features a clean and modern design. The site is fully responsive, offering a seamless user experience across devices.",
       tags: [
         {
-          name: "react",
+          name: "reactjs",
           color: "blue-text-gradient",
         },
         {
-          name: "tailwind",
-          color: "blue-text-gradient",
+          name: "tailwindcss",
+          color: "green-text-gradient",
         }
       ],
       image: tesla,
       source_code_link: "https://github.com/Eljude03/tesla",
-      demo_link: "https://github.com/Eljude03/tesla"
+      demo_link: "https://teslaevp.netlify.app/",
     },
     {
       name: "EVP Resto",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "A simple food website built with ReactJS and TailwindCSS, allowing users to browse a selection of dishes and easily add their favorites to the cart for a streamlined and enjoyable shopping experience.",
       tags: [
         {
-          name: "react",
+          name: "reactjs",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "tailwindcss",
           color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
+        }
       ],
       image: foodwebsite,
       source_code_link: "https://github.com/Eljude03/foodWebsite",
@@ -59,15 +55,11 @@ import tailwindcss from "../assets/tailwind.svg";
     {
       name: "Tenzies Game",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Tenzies is an engaging dice game built with React, featuring a clean and simple UI. Challenge yourself to roll and match dice to achieve the highest score in this addictive, fun-filled game.",
       tags: [
         {
           name: "nextjs",
           color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
         },
         {
           name: "css",
@@ -81,19 +73,31 @@ import tailwindcss from "../assets/tailwind.svg";
     {
       name: "ImagifyAI",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "ImagifyAI is a powerful FullStack web app built with Next.js, Tailwind CSS, and ShadCN. It features secure user login with Clerk and leverages Cloudinary’s advanced tools like Image Restore, Generative Fill, Object Removal, Object Recolor, and Background Removal. MongoDB is used for efficient database management.",
       tags: [
         {
           name: "nextjs",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "tailwindcss",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "shadcn",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "clerk",
           color: "pink-text-gradient",
+        },
+        {
+          name: "cloudinary",
+          color: "black-gradient",
+        },
+        {
+          name: "mongodb",
+          color: "green-text-gradient",
         },
       ],
       image: imagify,
@@ -120,7 +124,7 @@ import tailwindcss from "../assets/tailwind.svg";
       ],
       image: text2speech,
       source_code_link: "https://github.com/Eljude03/text2speech",
-      demo_link: "https://qr-generator-evp-0215-edh7h4geebb0h2fn.eastasia-01.azurewebsites.net/",
+      demo_link: "https://main.d1ltm6s20k9ofb.amplifyapp.com/",
     },
     {
       name: "QR Generator",
