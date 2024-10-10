@@ -10,6 +10,7 @@ const Footer = () => {
         <div className="flex gap-2 mb-4">
           <a
             target="_blank"
+            rel="noreferrer"
             href="https://www.linkedin.com/in/eljude-panao-370219134/"
             className="icons"
           >
@@ -17,6 +18,7 @@ const Footer = () => {
           </a>
           <a
             target="_blank"
+            rel="noreferrer"
             href="https://github.com/Eljude03"
             className="icons"
           >
@@ -24,6 +26,7 @@ const Footer = () => {
           </a>
           <a
             target="_blank"
+            rel="noreferrer"
             href="https://www.facebook.com/JudE03.VP/"
             className="icons"
           >
@@ -31,6 +34,7 @@ const Footer = () => {
           </a>
           <a
             target="_blank"
+            rel="noreferrer"
             href="mailto:eljudepanao37@gmail.com"
             className="icons"
           >
