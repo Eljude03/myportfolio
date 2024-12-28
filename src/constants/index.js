@@ -133,22 +133,18 @@ import tailwindcss from "../assets/tailwind.svg";
     {
       name: "QR Generator",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Generate QR codes effortlessly with QRgenerator, a web application built using modern technologies. The frontend, developed with React, provides a user-friendly interface. The backend, powered by Azure Functions and Azure Storage, ensures seamless QR code generation and storage.",
       tags: [
         {
           name: "react.js",
           color: "blue-text-gradient",
         },
         {
-          name: "AWS Lambda",
+          name: "Azure Storage",
           color: "green-text-gradient",
         },
         {
-          name: "Amazon Polly",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "Amazon S3",
+          name: "Azure Functions",
           color: "orange-text-gradient",
         },
       ],
