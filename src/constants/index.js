@@ -107,7 +107,7 @@ import tailwindcss from "../assets/tailwind.svg";
     {
       name: "Text2Speech",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Text2Speech is a web application that seamlessly converts written text into natural-sounding speech. Built with a modern frontend using React, a serverless backend powered by AWS Lambda, and Amazon Polly for high-quality text-to-speech synthesis, Text2Speech offers a user-friendly and efficient way to bring your text to life.",
       tags: [
         {
           name: "nextjs",
@@ -132,16 +132,20 @@ import tailwindcss from "../assets/tailwind.svg";
         "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
       tags: [
         {
-          name: "nextjs",
+          name: "react.js",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "AWS Lambda",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "Amazon Polly",
           color: "pink-text-gradient",
+        },
+        {
+          name: "Amazon S3",
+          color: "orange-text-gradient",
         },
       ],
       image: qrGenerator,
